@@ -1,0 +1,171 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* basic
+-------------------------------------------*/
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+
+html {
+  height: 100%;
+}
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #f4f2f1;
+}
+main {
+  flex: 1;
+}
+footer {
+  color: #777;
+  width: 100%;
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 20px 0;
+}
+footer p {
+  margin-bottom: 0.5rem;
+}
+
+/* nav
+-------------------------------------------*/
+header.navbar {
+  background-color: white;
+  box-shadow: 0 2px 10px 2px rgba(0,0,0,0.1);
+}
+header.navbar .navbar-brand {
+  margin-bottom: 0;
+}
+header.navbar small {
+  font-size: 0.9rem;
+  color: #989898;
+  margin-left: 1em;
+}
+
+/* main
+-------------------------------------------*/
+main {
+  padding-top: 96px;
+  padding-bottom: 20px;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+
+/* dashboard
+-------------------------------------------*/
+.dashboard {
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #d4d2d0;
+  border-radius: 4px;
+  margin-bottom: 2rem;
+}
+.dashboard small {
+  font-size: 0.75rem;
+  color: #b7b7b7;
+}
+.dashboard p.address {
+  font-weight: 400;
+  font-size: 1.8rem;
+  color: #999;
+}
+.dashboard h2 {
+  font-weight: 200;
+  font-size: 2.0rem;
+  color: #565656;
+  margin-bottom: 1.5rem;
+  margin-left: 1rem;
+}
+.dashboard > *:last-child {
+  margin-bottom: 0;
+}
+.dashboard th {
+  font-weight: 300;
+  color: #666;
+}
+
+.dashboard table.table-rows td,
+.dashboard table.table-rows th {
+  font-size: 0.9rem;
+}
+.dashboard table.table-rows thead td,
+.dashboard table.table-rows thead th {
+  border: 0;
+  font-weight: 200;
+  color: #565656;
+}
+.dashboard table.table-rows td.total {
+  font-size: 1.4rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.dashboard table.table-rows th.num {
+  text-align: right;
+}
+.dashboard table.table-rows td {
+  text-align: right;
+}
+.dashboard table.table-rows small {
+  font-size: 0.75rem;
+  color: #b7b7b7;
+}
+
+.dashboard .col-sm-6 {
+  margin-bottom: 2.0rem;
+}
+
+/* gapi
+-------------------------------------------*/
+.gapi-analytics-data-chart {
+  overflow: hidden;
+}
+
+/* third party
+-------------------------------------------*/
+#embed-api-auth-container {
+  font-weight: 300;
+  font-size: 0.8rem;
+  color: #7c7c7c;
+  margin-bottom: 0.2em;
+}
+#view-name {
+  font-size: 1.4em;
+  font-weight: 200;
+}
+.ViewSelector2 {
+  display: flex;
+  margin-top: 1.5rem;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.ViewSelector2-item {
+  padding: 0 15px;
+  -webkit-box-flex: 1;
+  flex: 1 1 calc(100%/3 - 1em);
+}
+.ViewSelector2-item label {
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin: 0 .25em .25em 0;
+  display: block;
+}
+.ViewSelector2-item select.FormField {
+  width: 100%;
+  background: #fff;
+  border: 1px solid #d4d2d0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 0.9rem;
+  font-weight: 400;
+  height: 2.42857em;
+  line-height: 1.42857em;
+  padding: .42857em;
+  -webkit-transition: border-color .2s cubic-bezier(.4, 0, .2, 1);
+  transition: border-color .2s cubic-bezier(.4, 0, .2, 1)
+}
