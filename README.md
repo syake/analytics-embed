@@ -10,6 +10,8 @@ Google Analytics Embed API サンプル
 
 * 過去1週間のセッション数
 
+![](https://github.com/syake/analytics-embed/blob/master/assets/index.png)
+
 ## third_party.php
 
 基本のデザインとは少し違うもの
@@ -18,6 +20,8 @@ Google Analytics Embed API サンプル
 * 1年間の訪問ユーザー数
 * ブラウザごとのページビューを円グラフで表したもの
 * 国ごとのセッション数を円グラフで表したもの
+
+![](https://github.com/syake/analytics-embed/blob/master/assets/third_party.png)
 
 ## auth.php
 
@@ -31,3 +35,5 @@ Google Analytics Embed API サンプル
 （ユーザーの分布レポートを有効化する必要があります）
 * 地域ごとのセッション数を日本地図上で表したもの  
 （ユーザーの分布レポートを有効化する必要があります）
+
+![](https://github.com/syake/analytics-embed/blob/master/assets/auth.png)
