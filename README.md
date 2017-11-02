@@ -1,12 +1,13 @@
 # analytics-embed
 
-Google Analytics Embed API サンプル
+Google Analytics Embed API サンプル。    
+Google Analytics のデータ取得とグラフ化を一度に実装してくれるのが特徴です。
 
 参照：https://developers.google.com/analytics/devguides/reporting/embed/v1/?hl=ja
 
 ## index.php
 
-ベーシックな折れ線グラフ
+ベーシックな折れ線グラフ。
 
 * 過去1週間のセッション数
 
@@ -14,7 +15,7 @@ Google Analytics Embed API サンプル
 
 ## third_party.php
 
-基本のデザインとは少し違うもの
+基本のデザインとは少し違うもので円グラフやアニメーションなども実装されています。
 
 * 過去1週間のセッション数
 * 1年間の訪問ユーザー数
@@ -25,8 +26,8 @@ Google Analytics Embed API サンプル
 
 ## auth.php
 
-サーバー側のauth認証を使って、認証ボタンの確認なしでデータを取得できるサンプル    
-サービスアカウントの取得や認証用のJSONキーが必要になります
+サーバー側のauth認証を使って、認証ボタンの確認なしでデータを取得できるサンプル。    
+サービスアカウントの取得や認証用のJSONキーが必要になります。
 
 * データ取得の期間を指定
 * セッション数と訪問ユーザー数とページビューの折れ線グラフ
